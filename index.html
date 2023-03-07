@@ -1,20 +1,4 @@
 ---
-layout: default
-title: Home
+layout: home
 ---
-
-<div class="jumbotron">
-  <h1>Welcome to my website!</h1>
-  <p>Check out my latest blog posts below.</p>
-</div>
-
-<div class="row">
-  {% for post in site.posts %}
-  <div class="col-md-4">
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.excerpt }}</p>
-    <a class="btn btn-default" href="{{ post.url }}">Read More</a>
-  </div>
-  {% endfor %}
-</div>
 
