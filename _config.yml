@@ -29,6 +29,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
+kramdown:
+  syntax_highlighter: rouge
+
 
 minread:
   unit: minutes
