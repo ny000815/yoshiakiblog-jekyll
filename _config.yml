@@ -1,0 +1,31 @@
+title:              Yoshiaki Blog
+email:              nozakiremon@gmail.com
+description:        留学準備情報サイト
+author:             Yoshiaki Nozaki
+baseurl:            "/yoshiakiblog"
+# url:                "https://startbootstrap.github.io"
+
+# Social Profiles
+twitter_username:   twitter
+github_username:    ny000815
+facebook_username:  facebook
+instagram_username:  instagram
+linkedin_username:  yoshiakin
+
+# Google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  # - jekyll-sitemap 
+
+minread:
+  unit: minutes
+  wpm: 180
+  suffix: "読了済み"
+  suffix_ja: "分で読めます"
