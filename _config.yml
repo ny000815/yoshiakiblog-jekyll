@@ -2,8 +2,8 @@ title:              Yoshiaki Blog
 email:              nozakiremon@gmail.com
 description:        留学準備情報サイト
 author:             Yoshiaki Nozaki
-baseurl:            "https://ny000815.github.io/yoshiakiblog"
-# url:                "https://startbootstrap.github.io"
+baseurl:            "/yoshiakiblog"
+url:                "https://ny000815.github.io/yoshiakiblog-jekyll/"
 
 # Social Profiles
 twitter_username:   twitter
