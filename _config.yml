@@ -24,6 +24,12 @@ plugins:
   - jekyll-paginate
   # - jekyll-sitemap 
 
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+
 minread:
   unit: minutes
   wpm: 180
